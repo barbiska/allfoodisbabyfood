@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-89.jpg?t=st=1738012339~exp=1738015939~hmac=4173f6f15047cf78b7998b86855253ec34bb52dfbdd462cb65275831549afc1f&w=996'); /* Replace 'your-image.jpg' with the path to your background image */
+    background-size: cover; /* Makes the image cover the entire background */
+    background-position: center; /* Centers the background image */
+    background-repeat: repeat; 
+    background-color: #ffffff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 60px;
+    margin-bottom: 1px;
+    color: #000000;
+}
+
+main p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #000000;
+    color: rgb(235, 48, 48);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ce2121e2;
+    color: rgb(0, 0, 0);
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.quote-container {
+    text-align: center;
+    display: none;
+}
+
+.quote-container img {
+    max-width: 100%;
+    max-height: 400px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.quote-container p {
+    margin-top: 20px;
+    font-size: 17px;
+    color: #000;
+    font-weight: bold;
+}
