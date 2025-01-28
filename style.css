@@ -31,7 +31,7 @@ button {
     font-size: 18px;
     border: none;
     background-color: #000000;
-    color: rgb(235, 48, 48);
+    color: rgb(255, 255, 255);
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.1s;
@@ -39,7 +39,7 @@ button {
 }
 
 button:hover {
-    background-color: #ce2121e2;
+    background-color: #ffffff;
     color: rgb(0, 0, 0);
 }
 
