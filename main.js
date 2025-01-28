@@ -46,7 +46,7 @@ button.addEventListener('click', () => {
     animeImage.src = randomQuote.img;
     animeQuote.textContent = randomQuote.quote;
     quoteContainer.style.display = 'block';
-    alert('Quote has been generated');
+    //alert('Quote has been generated');
 });
 
 
